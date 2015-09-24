@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .md-checkbox, .md-radio {
      position: relative;
  }
@@ -77,8 +81,8 @@ input[type=checkbox], input[type=radio] {
 .md-radio label > .check {
     top: 5px;
     left: 5px;
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     background: #FF6C60;
     opacity: 0;
     z-index: 6;
