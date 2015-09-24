@@ -8,6 +8,16 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	
+	<link rel="stylesheet" type="text/css" href="checkbox-radiobox.css">
+	<style>
+	form{
+		margin-bottom:30px;
+	}
+	.md-checkbox, .md-radio{
+		margin-bottom:15px;
+	}
+	</style>
   </head>
   <body>
     <section class="page-header">
@@ -55,7 +65,27 @@
         Option 2
     &lt;/<span class="pl-ent">label</span>&gt;
 &lt;/<span class="pl-ent">div</span>&gt;</pre></div>
-
+	<p><strong>Demo</strong></p>
+	<form>
+		<div class="md-checkbox">
+			<input type="checkbox" id="idCheckbox1">
+			<label for="idCheckbox1">
+				<span class="check"></span>
+				<span class="box"></span>
+				Option 1
+			</label>
+		</div>
+		
+		<div class="md-checkbox">
+			<input type="checkbox" id="idCheckbox2">
+			<label for="idCheckbox2">
+				<span class="check"></span>
+				<span class="box"></span>
+				Option 2
+			</label>
+		</div>
+	</form>
+	
 <p><strong>Radiobox</strong></p>
 
 <div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>md-radio<span class="pl-pds">"</span></span>&gt;
@@ -75,7 +105,27 @@
         Option 2
     &lt;/<span class="pl-ent">label</span>&gt;
 &lt;/<span class="pl-ent">div</span>&gt;</pre></div>
-
+	<p><strong>Demo</strong></p>
+	<form>
+		<div class="md-radio">
+			<input type="radio" id="idRadio1" name="radio1">
+			<label for="idRadio1">
+				<span class="check"></span>
+				<span class="box"></span>
+				Option 1
+			</label>
+		</div>
+		
+		<div class="md-radio">
+			<input type="radio" id="idRadio2" name="radio1">
+			<label for="idRadio2">
+				<span class="check"></span>
+				<span class="box"></span>
+				Option 2
+			</label>
+		</div>
+	</form>
+	
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/developscript/Checkbox-And-Radiobox-CSS">Checkbox-and-radiobox-css</a> is maintained by <a href="https://github.com/developscript">developscript</a>.</span>
 
